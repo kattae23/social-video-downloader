@@ -24,8 +24,8 @@ const CustomDrawerContent = () => {
       </View>
       <View className="flex flex-col justify-center p-4 mx-5">
         <Text className="text-xl font-light text-zinc-500">
-          Esta aplicación te permite descargar videos de Facebook, YouTube e Instagram 
-          directamente a tu dispositivo.
+          Esta aplicación te permite descargar videos de Facebook, YouTube e
+          Instagram directamente a tu dispositivo.
         </Text>
       </View>
     </SafeAreaView>
@@ -46,7 +46,7 @@ export default function TabLayout() {
         drawerItemStyle: {
           backgroundColor: "#fff",
         },
-        headerTitle: "Social Downloader",
+        headerTitle: "Video Downloader",
         headerTintColor: "#fff",
         headerStyle: {
           backgroundColor: "#4267B2",
@@ -57,7 +57,7 @@ export default function TabLayout() {
         name="(app)" // This is the name of the page and must match the url from root
         options={{
           drawerLabel: "Home",
-          title: "Social Downloader",
+          title: "Video Downloader",
           drawerIcon: ({ size, color }) => (
             <Ionicons name="home-outline" size={size} color="#4267B2" />
           ),
